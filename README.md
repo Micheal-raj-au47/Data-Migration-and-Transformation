@@ -1,5 +1,5 @@
 # Data-Migration-and-Transformation
-Here we Migrated Dta by scraping website and Filtered required data and put it in to RDS
+Here we Migrated Data by scraping website and Filtered required data and put it in to RDS
 Problem Statement:
 We have a URL https://www.sec.gov/edgar/sec-api-documentation that points to a zip file. The zip file contains multiple JSON files. The JSON files
 contain multiple documents with various data structures. Our goal is to download the zip file
