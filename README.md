@@ -11,8 +11,7 @@ To extract the data from a zip file that is available at a URL and load it into 
 Amazon RDS (NoSQL), you can follow these steps:
 1. Use the requests library to download the zip file from the URL.
 2. Use the zipfile module to extract the data from the zip file.
-3. Use the boto3 library or PySpark to store the data in Amazon S3.
-4. Use the pandas library and sqlalchemy or PySpark to load the data from S3 into Amazon
+3. Use the pandas library and sqlalchemy or PySpark to load the data from S3 into Amazon
 RDS (NoSQL).
 Results:
 The result of following these steps should be that the data from the zip file is extracted and
